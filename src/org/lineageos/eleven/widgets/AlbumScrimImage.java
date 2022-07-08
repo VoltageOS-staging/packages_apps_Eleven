@@ -125,7 +125,7 @@ public class AlbumScrimImage extends FrameLayout {
     @TargetApi(Build.VERSION_CODES.S)
     public void applyBlurEffect() {
         final RenderEffect blurEffect = RenderEffect.createBlurEffect(
-                BLUR_RADIUS, BLUR_RADIUS, Shader.TileMode.CLAMP);
+                BLUR_RADIUS, BLUR_RADIUS, Shader.TileMode.MIRROR);
         mImageView.setRenderEffect(blurEffect);
     }
 
