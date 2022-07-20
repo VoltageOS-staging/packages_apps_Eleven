@@ -19,6 +19,6 @@
     <bool name="config_hardwareAccelerated">true</bool>
 
     <!-- Configures a larger heap size -->
-    <bool name="config_largeHeap">true</bool>
+    <bool name="config_largeHeap">false</bool>
 
 </resources>
