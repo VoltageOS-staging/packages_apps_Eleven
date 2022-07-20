@@ -171,6 +171,7 @@
     <style name="HeaderTabTextStyle" parent="android:style/Widget.Material.ActionBar.TabText">
         <item name="android:textColor">@color/tab_text_color</item>
         <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
     </style>
 
     <style name="ToolBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar"/>
